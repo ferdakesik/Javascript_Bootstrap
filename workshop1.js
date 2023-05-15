@@ -71,11 +71,14 @@ bootcamp.registerStudent(new Student('Babs Bunny','babs@bunny.com'));
 if(bootcamp.listStudents()){
     console.log("TASK 4 : PASS 1/2");
 }
+
 bootcamp.students=[];
 if(!bootcamp.listStudents()){
     console.log("TASK 4: PASS 2/2")
 
 }
+
+  console.log(bootcamp.removeStudent('babs@bunny.com'));
 
 
 };
